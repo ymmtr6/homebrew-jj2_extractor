@@ -1,7 +1,7 @@
 REPOSITORY_URL="https://github.com/ymmtr6/jj2_notespliter".freeze
 HOMEBREW_SLACK_NOTIFY_VERSION="0.0.1".freeze
 
-class SlackNotify < Formula
+class JJ2Extractor < Formula
   desc "Transfer stdin or argument using slack incomming webhook."
   homepage REPOSITORY_URL
   url "#{REPOSITORY_URL}/archive/#{HOMEBREW_SLACK_NOTIFY_VERSION}.tar.gz"
@@ -10,7 +10,7 @@ class SlackNotify < Formula
   head "#{REPOSITORY_URL}.git", :tag => HOMEBREW_SLACK_NOTIFY_VERSION
 
   def install
-    bin.install "bin/jj2_extractor""
+    bin.install "bin/jj2_extractor"
   end
 
 end
