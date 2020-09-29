@@ -13,15 +13,4 @@ class SlackNotify < Formula
     bin.install "bin/jj2_extractor""
   end
 
-  def caveats
-    msg = <<-EOS
-    # jj2_extractor needs python3.x!!
-
-    EOS
-  end
-
-  test do
-    system "false"
-  end
-
 end
