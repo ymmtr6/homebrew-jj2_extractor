@@ -6,7 +6,7 @@ class Jj2Extractor < Formula
   homepage "https://github.com/ymmtr6/jj2_extractor/README.md"
   url "#{REPOSITORY_URL}/archive/#{HOMEBREW_SLACK_NOTIFY_VERSION}.tar.gz"
   version HOMEBREW_SLACK_NOTIFY_VERSION
-  sha256 "a924fd76aa52457fcd0636fcddd7d0c35a19e27ab147320ac6aad4d7460bfda5"
+  sha256 "daf8e481a4dba87670337ec5e7c7b22a775a7e9e9b7bf0f6478bd9cac06fcb2f"
   head "#{REPOSITORY_URL}.git", :tag => HOMEBREW_SLACK_NOTIFY_VERSION
 
   def install
